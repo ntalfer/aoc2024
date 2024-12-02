@@ -8,13 +8,13 @@ defmodule Mix.Tasks.Day do
   @spec run([...]) :: any()
   def run([day]) do
     module_file = "lib/d#{day}.ex"
+
     if File.exists?(module_file) do
       input = IO.gets("File #{module_file} already exists. Overwrite? [y/n]\n")
       if String.downcase(input) == "y\n", do: write_files(module_file, day)
     else
       write_files(module_file, day)
     end
-
   end
 
   defp write_files(module_file, day) do
