@@ -6,6 +6,6 @@ defmodule D3Test do
   end
 
   test "p2" do
-    assert D3.p2("test/d3.txt") == 88802350
+    assert D3.p2("test/d3.txt") == 88_802_350
   end
 end

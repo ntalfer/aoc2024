@@ -29,11 +29,13 @@ defmodule Mix.Tasks.Day do
     defmodule D#{day} do
       def p1(file) do
         file
+        |> File.read!()
         |> String.split("\\\\n")
       end
 
       def p2(file) do
         file
+        |> File.read!()
         |> String.split("\\\\n")
       end
     end
