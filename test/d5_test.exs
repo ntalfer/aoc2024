@@ -8,4 +8,5 @@ defmodule D5Test do
   test "p2" do
     assert D5.p2("test/d5.txt") == 5184
   end
+
 end
