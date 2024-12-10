@@ -49,5 +49,4 @@ defmodule D8 do
 
     {groups, height, width}
   end
-
 end
