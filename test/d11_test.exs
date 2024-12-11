@@ -5,8 +5,7 @@ defmodule D11Test do
     assert D11.p1("test/d11.txt") == 233050
   end
 
-  # @tag timeout: :infinity
   # test "p2" do
-  #  assert D11.p2("test/d11.txt") == 0
+  #  assert D11.p2("test/d11.txt") == 276661131175807
   # end
 end
