@@ -2,7 +2,7 @@ defmodule D11Test do
   use ExUnit.Case
 
   test "p1" do
-    assert D11.p1("test/d11.txt") == 233050
+    assert D11.p1("test/d11.txt") == 233_050
   end
 
   # test "p2" do
