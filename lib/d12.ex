@@ -126,4 +126,21 @@ defmodule D12 do
       end
     end)
   end
+  
+  defp is_corner?(point, points) do
+    # outer
+    #up and left out
+    # up and right
+    # right and bottom
+    # left and bottom
+    
+    #inner
+    #up-right
+    #up-left
+    #bottom-left
+    #bootpm-right
+    cond do
+      (not En)
+    end
+  end
 end
