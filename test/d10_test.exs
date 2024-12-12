@@ -6,6 +6,6 @@ defmodule D10Test do
   end
 
   test "p2" do
-   assert D10.p2("test/d10.txt") == 1619
+    assert D10.p2("test/d10.txt") == 1619
   end
 end
